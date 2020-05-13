@@ -29,7 +29,7 @@
 
 #### Branches
 
-- Lösungen bitte über einen seperaten Branch erstellen. Niemals auf den master branch pushen!!
+- Lösungen bitte über einen seperaten Branch erstellen. Ich habe das direkte Pushen auf den master durch eine Regel deaktiviert.
 - Immer einen Pull Request stellen, sodass man einen Code Review machen kann.
 - Pull Requests niemals selbst mergen, immer den Reviewer mergen lassen!
 
