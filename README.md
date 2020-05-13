@@ -4,7 +4,7 @@
 
 - Bitte die Ordnerstruktur einhalten. Ich habe Beispieldateien hinterlegt, an denen man sich orientieren kann.
 - Der Ordner src beinhaltet die Programme für die Lösungen.
-- Lösungen bitte über einen seperaten Branch erstellen.
+- Lösungen bitte über einen seperaten Branch erstellen. Niemals auf den master branch pushen!!
 - Lokale Settings (bspw. wenn ihr Eclipse verwendet) bitte in der .gitignore hinterlegen, sonst werden diese mitgepushed.
 
 ### GitHub
