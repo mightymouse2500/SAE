@@ -2,6 +2,7 @@
 
 ### Allgemeine Hinweise
 
+- Das Repository lässt sich nicht bearbeiten, wenn ich euch nicht als Contributor hinzugefügt habe. Siehe unten!
 - Bitte die Ordnerstruktur einhalten. Ich habe Beispieldateien hinterlegt, an denen man sich orientieren kann.
 - Der Ordner src beinhaltet die Programme für die Lösungen.
 - Lösungen bitte über einen seperaten Branch erstellen. Niemals auf den master branch pushen!!
