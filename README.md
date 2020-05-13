@@ -7,6 +7,19 @@
 - Lösungen bitte über einen seperaten Branch erstellen.
 - Lokale Settings (bspw. wenn ihr Eclipse verwendet) bitte in der .gitignore hinterlegen, sonst werden diese mitgepushed.
 
+### GitHub
+
+#### User
+
+- Erstellt euch einen GitHub Account und gebt mir bei Gelegenheit den Username an, sodass ich euch zum Repository einladen kann.
+- Ihr erhaltet eine Email zur Bestätigung der Einladung.
+
+#### Befehle
+
+- Git create branch from: Erstellt euren eigenen Branch zum Hinzufügen von Daten, nutzt als Ausgangslage den ausgewählten Branch.
+- Git push: Schickt eure Änderungen an das Repository.
+- Git fetch: Aktualisiert euren Branch mit den aktuellen Daten auf dem Repository.
+
 ### Benutzerordner
 
 - Wer möchte, kann sich gerne einen eigenen Ordner für seine persönlichen Lösungen anlegen. Ich habe einen Beispielordner für mich als Referenz erstellt.
