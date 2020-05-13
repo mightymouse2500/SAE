@@ -11,15 +11,15 @@
 
 #### Git
 
-- Die Versionskontrolle "Git" muss zuerst auf dem Computer installiert sein.
+- Die Versionskontrolle "Git" muss zuerst auf dem Computer installiert sein. Siehe: https://git-scm.com/downloads
 
 #### User
 
 - Erstellt euch einen GitHub Account und gebt mir bei Gelegenheit den Username an, sodass ich euch zum Repository einladen kann.
 - Ihr erhaltet eine Email zur Bestätigung der Einladung.
 - Eure User Credentials müssen lokal auf eurem Computer gespeichert sein, um Änderungen online stellen zu können. Gebt in der Konsole ein:
-git config user.name "Dein Username"
-git config user.email "Deine Emailadresse"
+- git config user.name "Dein Username"
+- git config user.email "Deine Emailadresse"
 
 #### Befehle
 
