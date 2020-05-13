@@ -5,7 +5,6 @@
 - Das Repository lässt sich nicht bearbeiten, wenn ich euch nicht als Contributor hinzugefügt habe. Siehe unten!
 - Bitte die Ordnerstruktur einhalten. Ich habe Beispieldateien hinterlegt, an denen man sich orientieren kann.
 - Der Ordner src beinhaltet die Programme für die Lösungen.
-- Lösungen bitte über einen seperaten Branch erstellen. Niemals auf den master branch pushen!!
 - Lokale Settings (bspw. wenn ihr Eclipse verwendet) bitte in der .gitignore hinterlegen, sonst werden diese mitgepushed.
 
 ### GitHub
@@ -20,6 +19,12 @@
 - Git create branch from: Erstellt euren eigenen Branch zum Hinzufügen von Daten, nutzt als Ausgangslage den ausgewählten Branch.
 - Git push: Schickt eure Änderungen an das Repository.
 - Git fetch: Aktualisiert euren Branch mit den aktuellen Daten auf dem Repository.
+
+#### Branches
+
+- Lösungen bitte über einen seperaten Branch erstellen. Niemals auf den master branch pushen!!
+- Immer einen Pull Request stellen, sodass man einen Code Review machen kann.
+- Pull Requests niemals selbst mergen, immer den Reviewer mergen lassen!
 
 ### Benutzerordner
 
