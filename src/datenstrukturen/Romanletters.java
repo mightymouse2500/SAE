@@ -85,6 +85,7 @@ public class Romanletters {
 		}
 		
 		// NOTE: What if the order of characters is wrong, say like VX or VXIMD?
+		// NOTE: Cannot have more than one smaller like "IIV", only "IV"
 		
 		return input;
 	}
@@ -92,8 +93,8 @@ public class Romanletters {
 	// tests functionality of Romanletters
 	public static void main(String[] args) {
 		
-		String[] testInputs = { "I", "V", "X", "L", "C", "D", "M", "XIV", "XXII", "XXXIX", "XLVIII", "XCIX", "MMMDCCXCIV", "IIII", "B" };
-		String[] expect = { "1", "5", "10", "50", "100", "500", "1000", "14", "22", "39", "48", "99", "3794", "The entered input contains illegal expressions.", "The entered input contains illegal values." };
+		String[] testInputs = { "I", "V", "X", "L", "C", "D", "M", "XIV", "XXII", "XXXIX", "XLVIII", "XCIX", "MMMDCCXCIV", "IIII", "B", "IIV" };
+		String[] expect = { "1", "5", "10", "50", "100", "500", "1000", "14", "22", "39", "48", "99", "3794", "The entered input contains illegal expressions.", "The entered input contains illegal values.", "The entered input contains illegal expressions." };
 			
 		for ( int i = 0; i < testInputs.length; i++ ) {
 			if ( expect[i].equals( Romanletters.convertToArabic( testInputs[i] ) ) ) {
