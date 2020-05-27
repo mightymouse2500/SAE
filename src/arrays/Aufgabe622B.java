@@ -1,15 +1,19 @@
 package arrays;
 
+import java.util.Arrays;
+
 public class Aufgabe622B {
-
+    // merge two int arrays into one
     private static int[] mergeArrays(int[] first, int[] second) {
-        int[] result;
-
-        for (int i = 0; i < first.length; i++) {
-            
-        }
-
+        int[] result = new int[first.length + second.length];
+        System.arraycopy(first, 0, result, 0, first.length);
+        System.arraycopy(second, 0, result, first.length, second.length);
         return result;
+    }
+    
+    // order the elements inside of an int array
+    private static void orderArray(int[] inputArray) {
+        Arrays.sort(inputArray);
     }
 
     public static void main(String[] args) {
@@ -18,8 +22,11 @@ public class Aufgabe622B {
     
         int[] allNums = mergeArrays(firstArr, secondArr);
 
-        for (int i = 0; i < allNums.length; i++) {
-            System.out.println(allNums[i]);
+        orderArray(allNums);
+
+        for (int i : allNums) {
+            System.out.println(i);
         }
+
     }
 }
