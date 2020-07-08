@@ -42,6 +42,10 @@
 - Einleitung unter: https://code.visualstudio.com/docs/java/java-tutorial
 - Zum gemeinsamen Programmieren die Extension Live Share installieren.
 
+#### Java Runtime
+
+- In Visual Studio Code muss der Pfad zur Java Runtime eventuell angepasst werden. Dies geht über Einstellungen. Gib im Suchfeld "Java:Home" ein, dort muss der Ordner deiner Java Runtime angegeben werden.
+
 #### Linting
 
 - Generell bitte die Linting-Regeln einhalten, die im Java Extension Pack integriert sind.
