@@ -8,7 +8,7 @@ public class Lotto {
     // method to randomly select an element from 0 to remaining numbers
     // numsLeft refers to the amount of numbers left to be drawn
     private static int drawNumber(int numsLeft) {
-        return (int) (Math.random() * numsLeft); // NOSONAR
+        return (int) (Math.random() * numsLeft + 1); // NOSONAR
     }
 
     // plays a game of lotto
@@ -37,7 +37,6 @@ public class Lotto {
                 System.out.println("Zusatzzahl: " + winningNums.get(i));
             }
         }
-
     }
     
     public static void main(String[] args) {
